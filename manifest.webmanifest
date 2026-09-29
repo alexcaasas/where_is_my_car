@@ -1,0 +1,10 @@
+{
+  "name": "Mi coche",
+  "short_name": "Mi coche",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#22252a",
+  "theme_color": "#22252a",
+  "icons": [{ "src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }]
+}
