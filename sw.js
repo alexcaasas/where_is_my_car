@@ -1,5 +1,5 @@
 // Guarda la app para que abra aunque no haya cobertura (el mapa necesita conexión)
-const CACHE = "mi-coche-v1";
+const CACHE = "mi-coche-v2";
 const ARCHIVOS = ["./", "index.html", "manifest.webmanifest", "icon.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ARCHIVOS))); self.skipWaiting(); });
 self.addEventListener("activate", e => {
